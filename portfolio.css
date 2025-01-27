@@ -1,0 +1,87 @@
+#me {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 100px;
+    padding-top: 30px;   
+}
+/* width: 75 + 2 + 2 = 79px*/
+#c {
+    display: block;
+    border: 2px solid;
+    border-radius: 3%;
+    height: 85px;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* width is 200px */
+#nav {
+    background-color: rgb(141, 171, 190);
+    padding: 20px;
+    margin: 30px;
+    max-width: 200px;
+}
+/* 5 + 5 = 10px */
+head {
+    margin: 0 5px 0 5px;
+    background-color: rgb(128, 158, 175);
+}
+
+h1 {
+    background-color: rgb(128, 158, 175);
+}
+
+/* 50 + 50 + 20 + 20 = an extra 140px to whatever content I have */
+div {
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(163, 174, 180);
+}
+
+/* an extra 7px to whatever content I have */
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 7px 10px 0;
+}
+
+/* max width of the webpage */
+footer {
+    background-color: rgb(94, 133, 155);
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+/* an extra 10 + 10 = 20px to whatever content I have */
+body {
+    margin: 10px;
+}
+
+/* an extra 30 + 30 = 60px to whatever content I have */
+.sect {
+    margin: 30px;
+}
+
+.list {
+    font-style: italic;
+}
+
+.minis {
+    font-weight: lighter;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.contact {
+    text-decoration: underline;
+    color: purple;
+}
+#link1:hover {
+    color: red;
+}
+#link2:hover {
+    color: green;
+}
+#link3:hover {
+    color: blue;
+}

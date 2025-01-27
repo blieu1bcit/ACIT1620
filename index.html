@@ -1,66 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class="sect">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamental Web Technologies</title>
-    <link rel="stylesheet" href="lab2.css">
-    <h1>Fundamental Web Technologies</h1>
-    <ul>
-        <li><a href="#HTML">HTML</a></li>
-        <li><a href="#CSS">CSS</a></li>
-        <li><a href="#JS">JavaScript</a></li>
+    <link rel="stylesheet" href="portfolio.css">
+
+    <title>Brandon Lieu</title>
+    <h1 id="me">Brandon Lieu</h1>
+    <img id="c" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png">
+    <ul id="nav">
+        <li><a href=#part1>About me</a></li>
+        <li><a href=#part2>Skills</a></li>
+        <li><a href=#part3>Programming links</a></li>
+        <li><a href=#part4>Contact</a></li>
     </ul>
 </head>
-<body>
-    <sect>
-       <header id="HTML"><h2>HTML</h2></header>
-            <p>At its heart, HTML is a language made up of elements, which can be applied to pieces of text to give them different meaning in a document (Is it a paragraph? Is it a bulleted list? Is it part of a table?), structure a document into logical sections (Does it have a header? Three columns of content? A navigation menu?), and embed content such as images and videos into a page.</p>
-    
 
-            <p>Elements consist of:</p>
-            <ul>
-                <li>A tag name</li>
-                <li>Required or optional attributes</li>
-            </ul>
-            <img src="element.png">
-            <p>It can be easier to understand what is going on in your code if you have it nicely formatted. In this HTML each nested element is indented by four spaces more than the one it is sitting inside. It is up to you to choose the style of formatting (how many spaces for each level of indentation, for example).</p>
-            <p>In Visual Studio Code, you can automatically format your code by following these steps:</p>
-            <ol>
-                <li>Type ctrl-shift-p (windows) or cmd-shift-p (mac) to open the Command Palette</li>
-                <li>In the Command Palette, type format</li>
-                <li>From the results, choose Format Document</li>
-            </ol>
-            <p><a href="#">Back to the top</a></p>
-    </sect>
-    <sect>
-        <header id="CSS"><h2>CSS</h2></header>
-            <p>CSS is a language for specifying how documents are presented to users. It can be used for very basic document text styling — for example, for changing the color and size of headings and links. It can be used to create a layout — for example, turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation.
-            </p>
-            <p>CSS is a rule-based language — you define the rules by specifying groups of styles that should be applied to particular elements or groups of elements on your web page.</p>
-            <p>For example, you can decide to have the main heading on your page to be shown as large red text. The following code shows a very simple CSS rule that would achieve the styling described above:
-            </p>
-            <img src="css.png">
-            <p><a href="#">Back to the top</a></p>
-    </sect>
-    <sect>
-        <header id="JS"><h2>JavaScript</h2></header>
-        <p>JavaScript is a programming language that allows you to implement complex functionalities on web pages. Every time a web page does more than just sit there and display static information for you to look at—displaying timely content updates, interactive maps, animated 2D/3D graphics, scrolling video jukeboxes, or more—you can bet that JavaScript is probably involved.
-        </p>
-        <p>The core client-side JavaScript language consists of some common programming features that allow you to do things like:
-        </p>
+<body>
+    <div id="part1" class="sect">
+        <h2 class="minis">About me</h2>
+        <p>Hi everyone! I'm Brandon and I'm an aspiring web developer/IT specialist/software engineer (basically anything I want to be at the moment). I play League of Legends and BLG knight is the GOAT.</p>
+    </div>
+    <div id="part2" class="sect">
+        <h2 class="minis">Skills</h2>
+        <p class="list">Below are some of the skills I'd reckon I have:</p>
         <ul>
-            <li>Store useful values inside variables</li>
-            <li>Perform operations on pieces of text (known as "strings" in programming)</li>
-            <li>Run code in response to certain events occurring on a web page - for example, a user clicking a button</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javscript (only the processing JS library)</li>
+            <li>C</li>
+            <li>C++</li>
+            <li>Decent in League of Legends</li>
+            <li>Decent in Clash of Clans</li>
         </ul>
-        <img src="script.png">
-        <p>What is even more exciting however is the functionality built on top of the client-side JavaScript language. So-called Application Programming Interfaces (APIs) provide you with extra superpowers to use in your JavaScript code.
-        </p>
-        <p>
-            APIs are ready-made sets of code building blocks that allow a developer to implement programs that would otherwise be hard or impossible to implement. They do the same thing for programming that ready-made furniture kits do for home building — it is much easier to take ready-cut panels and screw them together to make a bookshelf than it is to work out the design yourself, go and find the correct wood, cut all the panels to the right size and shape, find the correct-sized screws, and then put them together to make a bookshelf. 
-        </p>
-        <p><a href="#">Back to the top</a></p>
-    </sect>
+    </div>
+    <div id="part3" class="sect">
+        <h2 class="minis">About C and C++</h2>
+        <p>Unlike python, which is an interepreted language, C and C++ are complied languages, which means the code you write in either language are not yet rendered by your computer to create something tangible. The code needs to be put into a compiler first, which will turn it into machine language, which your computer can finally read and turn it into actual content.</p>
+        <p class="list">Below is a list of links about the two languages: </p>
+        <ul>
+            <li><a id="link1" href="https://www.w3schools.com/c/c_intro.php">About C</a></li>
+            <li><a id="link2" href="https://www.w3schools.com/cpp/">About C++</a></li>
+            <li><a id="link3" href="https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-compiled-versus-interpreted-languages">Compiled vs. Interepreted Languages</a></a></li>
+        </ul>
+    </div>
 </body>
+<footer id="part4">
+    <p>I know y'all wanna know more about me so here are two of my contacts:
+    </p>
+    <p>Email: <dl class="contact">blieu1@my.bcit.ca</dl></p>
+    <p>Phone number: <dl class="contact">778 871 7520</dl></p>
+</footer>
 </html>
