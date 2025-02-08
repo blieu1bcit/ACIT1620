@@ -1,54 +1,69 @@
+<!-- PLEASE DO NOT MODIFY THIS FILE -->
+
 <!DOCTYPE html>
 <html lang="en">
-<head class="sect">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="portfolio.css">
-
-    <title>Brandon Lieu</title>
-    <h1 id="me">Brandon Lieu</h1>
-    <img id="c" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/1200px-C_Programming_Language.svg.png">
-    <ul id="nav">
-        <li><a href=#part1>About me</a></li>
-        <li><a href=#part2>Skills</a></li>
-        <li><a href=#part3>Programming links</a></li>
-        <li><a href=#part4>Contact</a></li>
-    </ul>
+    <title>Div and Span with Flexbox</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-
 <body>
-    <div id="part1" class="sect">
-        <h2 class="minis">About me</h2>
-        <p>Hi everyone! I'm Brandon and I'm an aspiring web developer/IT specialist/software engineer (basically anything I want to be at the moment). I play League of Legends and BLG knight is the GOAT.</p>
+    <!-- Header Section -->
+    <div class="header">
+        <h1>Flex Layout with Div and Span</h1>
+        <p><span class="highlight">HTML</span> and 
+            <span class="highlight">CSS</span> 
+            combined with <span class="highlight">
+                Flexbox</span>.</p>
     </div>
-    <div id="part2" class="sect">
-        <h2 class="minis">Skills</h2>
-        <p class="list">Below are some of the skills I'd reckon I have:</p>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Javscript (only the processing JS library)</li>
-            <li>C</li>
-            <li>C++</li>
-            <li>Decent in League of Legends</li>
-            <li>Decent in Clash of Clans</li>
-        </ul>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <span class="nav-item">Home</span>
+        <span class="nav-item">About</span>
+        <span class="nav-item">Services</span>
+        <span class="nav-item">Contact</span>
     </div>
-    <div id="part3" class="sect">
-        <h2 class="minis">About C and C++</h2>
-        <p>Unlike python, which is an interepreted language, C and C++ are complied languages, which means the code you write in either language are not yet rendered by your computer to create something tangible. The code needs to be put into a compiler first, which will turn it into machine language, which your computer can finally read and turn it into actual content.</p>
-        <p class="list">Below is a list of links about the two languages: </p>
-        <ul>
-            <li><a id="link1" href="https://www.w3schools.com/c/c_intro.php">About C</a></li>
-            <li><a id="link2" href="https://www.w3schools.com/cpp/">About C++</a></li>
-            <li><a id="link3" href="https://www.ibm.com/docs/en/zos-basic-skills?topic=zos-compiled-versus-interpreted-languages">Compiled vs. Interepreted Languages</a></a></li>
-        </ul>
+
+    <!-- Main Content -->
+    <div class="content">
+        <div class="flex-container">
+            <!-- Article Section -->
+            <div class="article">
+                <h2>Div and Span</h2>
+                <p>The <span class="highlight">
+                    div</span> tag is great for 
+                    block-level elements, while the 
+                    <span class="highlight">span</span> tag is ideal 
+                    for inline styling.</p>
+            </div>
+            <div class="article">
+                <h2>Flexbox</h2>
+                <p>Using <span class="highlight">Flexbox</span>, 
+                    we can align and distribute content efficiently.</p>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <!-- Image Section -->
+            <div class="image-card">
+                <img src="divandspan.png" alt="Placeholder Image">
+                <p><span class="highlight">Image 1</span>: 
+                    Generic tags - Div and Span</p>
+            </div>
+            <div class="image-card">
+                <img src="flexbox.png" alt="Placeholder Image">
+                <p><span class="highlight">Image 2</span>: 
+                    Flexbox container.</p>
+            </div>
+        </div>   
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer">
+        <p>&copy; 2025 Web Flex Layout | Created with 
+            <span class="highlight">HTML</span> and <span class="highlight">
+                CSS</span></p>
     </div>
 </body>
-<footer id="part4">
-    <p>I know y'all wanna know more about me so here are two of my contacts:
-    </p>
-    <p>Email: <span class="contact">blieu1@my.bcit.ca</span></p>
-    <p>Phone number: <span class="contact">778 871 7520</span></p>
-</footer>
 </html>
